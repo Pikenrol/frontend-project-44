@@ -1,12 +1,19 @@
 {
   "name": "@hexlet/code",
+  "type":"module",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/Pikenrol/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Pikenrol/frontend-project-44/actions)",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": { 
+    "install:ci": "npm ci",
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node bin/brain-games.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+    
+  }
 }
